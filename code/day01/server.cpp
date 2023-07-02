@@ -4,6 +4,7 @@
 #include <string.h>
 
 int main() {
+    printf("begin...\n");
     int sockfd = socket(AF_INET, SOCK_STREAM, 0);
 
     struct sockaddr_in serv_addr;
